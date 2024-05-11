@@ -3,12 +3,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 60vh;
-  width: 100vw;
+  height: 100%;
   font-size: 18px;
   display: grid;
-  grid-template-columns: 70% 30%;
-  grid-template-rows: 25% 100% 25%;
+  grid-template-columns: 1fr 300px;
+  grid-template-rows: 1fr 300px 1fr;
 }
 
 .header {
@@ -30,6 +29,7 @@ body {
 .main .content {
   grid-column: span 2;
   text-align: center;
+  padding: 20px;
 }
 .main .block-1,
 .main .block-2,

@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 669px) and (max-width: 819px) {
   .body {
     grid-template-columns: 1fr;
   }
@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 599px) {
+@media (min-width: 370px) and (max-width: 668px) {
   .body {
     font-size: 25px;
     grid-template-columns: 1fr;
