@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+  .footer > div {
+    background-color: #f6f7f0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    grid-row: 1/2;
+  }
+  .main {
+    grid-row: 2/3;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .body {
+    font-size: 25px;
+    grid-template-columns: 1fr;
+  }
+  .main {
+    background: rgb(168, 240, 236);
+  }
+  .aside {
+    grid-row: 3/4;
+  }
+  .footer {
+    display: none;
+  }
+}
